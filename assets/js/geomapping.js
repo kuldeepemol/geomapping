@@ -49,7 +49,7 @@ function createFeatures(earthQuakeData, faultLineData) {
         return L.circleMarker(latlng, {
             radius: feature.properties.mag * 3,
             fillColor: color,
-            color: color,
+            color: 'black',
             weight: 1,
             opacity: 1,
             fillOpacity: 1
